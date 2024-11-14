@@ -32,6 +32,7 @@ payload = {
     "kennel_id": "Wscripted_Curator",  # use kennel_name entered above
     "agent_id": "1st_USER_ID",   # enter unique user IDs here, to call a unique agent for each ID
     "INPUT": "00000001010000000101011010100011100010101010101100",  # pass through the input from embedding_bucketing.auto_sort, adding any other inputs
+    "size": "6"
     "control": {
         "CN": False,             # set as True when the user clicks "Good Recommendation," this will trigger learning to positively reinforce the agent's recommendation
         "CP": False,             # set as True when the user clicks "Bad Recommendation," this will trigger learning to **negatively** reinforce the agent's recommendation (inhibiting such recommendations going forward)
